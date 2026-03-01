@@ -1,0 +1,239 @@
+{
+  "sections": [
+    {
+      "type": "navigation",
+      "id": "nav_1",
+      "label": "Navigation",
+      "order": 1,
+      "fields": {
+        "logo_text": "Luky InstaL",
+        "logo_image": "",
+        "cta_text": "Zavolajte nam",
+        "cta_url": "tel:+421900000000"
+      },
+      "repeaters": {
+        "links": [
+          { "text": "Domov", "url": "#hero_1" },
+          { "text": "O nas", "url": "#about_1" },
+          { "text": "Sluzby", "url": "#services_grid_1" },
+          { "text": "Ako pracujeme", "url": "#process_1" },
+          { "text": "Referencie", "url": "#testimonials_1" },
+          { "text": "FAQ", "url": "#faq_1" },
+          { "text": "Kontakt", "url": "#contact_1" }
+        ]
+      }
+    },
+    {
+      "type": "hero",
+      "id": "hero_1",
+      "label": "Hero",
+      "order": 2,
+      "fields": {
+        "headline": "Spolehliva voda a teplo pre vas domov",
+        "subheadline": "Profesionalne vodoinstalatericke a kurenarske sluzby v Sabinove a okoli. Rychly servis, fer ceny, 15+ rokov skusenosti.",
+        "cta_text": "Nezavazna konzultacia",
+        "cta_url": "#contact_1",
+        "cta_text_2": "Nase sluzby",
+        "cta_url_2": "#services_grid_1",
+        "background_image": "images/hero-bg.jpg",
+        "image": ""
+      }
+    },
+    {
+      "type": "about",
+      "id": "about_1",
+      "label": "O nas",
+      "order": 3,
+      "fields": {
+        "headline": "Preco si vybrat Luky InstaL?",
+        "text": "Sme rodinny podnik s viac ako 15-rocnou tradicou v oblasti vodoinstalaterskych a kurenarskych prac. Posobime v Sabinove a celom Presovskom kraji. Nasa praca je nasa vizitka - kazdy projekt dostavame s maximalnou preciznostou a pouzivame len kvalitne, overene materialy. Klientom poskytujeme zaruku na vsetky vykonane prace a servis aj po dokonceni zakazky.",
+        "image": "images/about.jpg"
+      }
+    },
+    {
+      "type": "services_grid",
+      "id": "services_grid_1",
+      "label": "Sluzby",
+      "order": 4,
+      "fields": {
+        "headline": "Nase sluzby",
+        "subheadline": "Komplexne riesenia pre vodu, kurenie, plyn a kupelne"
+      },
+      "repeaters": {
+        "items": [
+          {
+            "title": "Vodoinstalacia",
+            "description": "Montaz a oprava vodovodnych rozvodov, vymena potrubia, instalacia armatury a vodomerov. Riesime aj havarie nepretrzite.",
+            "icon": "droplet",
+            "image": "images/service-water.jpg"
+          },
+          {
+            "title": "Kurenie a vykurovanie",
+            "description": "Instalacia a servis kotlov, podlahoveho kurenia, radiatorov a tepelnych cerpadiel. Kompletne vykurovacie systemy na kluc.",
+            "icon": "flame",
+            "image": "images/service-heating.jpg"
+          },
+          {
+            "title": "Plynove rozvody",
+            "description": "Montaz plynovych rozvodov, pripojenie spotrebicov, revizie a tlakovane skusky. Vsetko podla platnych noriem a predpisov.",
+            "icon": "gas",
+            "image": "images/service-gas.jpg"
+          },
+          {
+            "title": "Rekonstrukcia kupelni",
+            "description": "Kompletna prestavba kupelni od navrhu po realizaciu. Obkladanie, montaz sprch, vani, umyvadiel a vsetkych prislusenstva.",
+            "icon": "bathroom",
+            "image": "images/service-bathroom.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "process",
+      "id": "process_1",
+      "label": "Ako pracujeme",
+      "order": 5,
+      "fields": {
+        "headline": "Ako pracujeme",
+        "subheadline": "Jednoduchy a transparentny postup od prveho kontaktu po odovzdanie diela"
+      },
+      "repeaters": {
+        "items": [
+          {
+            "title": "Konzultacia",
+            "description": "Kontaktujte nas telefonicky alebo cez formular. Preberieme vase poziadavky a dohodneme termin obhliadky.",
+            "step": "1"
+          },
+          {
+            "title": "Obhliadka a cenovka",
+            "description": "Prídeme priamo k vam, zhodnotime stav a pripravime detailnu cenovu ponuku bez skrytych poplatkov.",
+            "step": "2"
+          },
+          {
+            "title": "Realizacia",
+            "description": "Po odsuhlaseneni zacneme s pracou. Dodrzujeme dohodnute terminy a informujeme vas o priebehu.",
+            "step": "3"
+          },
+          {
+            "title": "Odovzdanie a zaruka",
+            "description": "Po dokonceni vam dielo predvedieme, vysvetlime obsluhu a poskytneme zaruku na vsetky prace.",
+            "step": "4"
+          }
+        ]
+      }
+    },
+    {
+      "type": "testimonials",
+      "id": "testimonials_1",
+      "label": "Referencie",
+      "order": 6,
+      "fields": {
+        "headline": "Co o nas hovoria klienti",
+        "subheadline": "Spokojnost nasich zakaznikov je pre nas najlepsou reklamou"
+      },
+      "repeaters": {
+        "items": [
+          {
+            "name": "Martin K.",
+            "text": "Luky InstaL nam kompletne zrekonstruoval kupelnu. Praca bola cisty, presna a v dohodnutom termine. Odporucam kazdemu v okolí Sabinova.",
+            "rating": "5",
+            "position": "Sabinov"
+          },
+          {
+            "name": "Jana M.",
+            "text": "Havaria vody v sobotu vecer - pan Lukas prisiel do hodiny a vsetko opravil. Profesionalny pristup a fer cena. Dakujem!",
+            "rating": "5",
+            "position": "Presov"
+          },
+          {
+            "name": "Peter S.",
+            "text": "Instalacia noveho kondenzacneho kotla a podlahoveho kurenia v celom dome. Vsetko funguje perfektne uz druhy rok. Skvela praca.",
+            "rating": "5",
+            "position": "Lipany"
+          }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq_1",
+      "label": "FAQ",
+      "order": 7,
+      "fields": {
+        "headline": "Caste otazky",
+        "subheadline": "Odpovede na najcastejsie otazky nasich zakaznikov"
+      },
+      "repeaters": {
+        "items": [
+          {
+            "question": "Poskytujete havarijny servis aj cez vikend?",
+            "answer": "Ano, havarijny servis poskytujeme 7 dni v tyzdni. V pripade akutnej poruchy vody alebo kurenia nas kontaktujte telefonicky a prijedeme co najskor."
+          },
+          {
+            "question": "Aka je vasa oblast posobnosti?",
+            "answer": "Posobime primarne v Sabinove a okolí do 30 km. Pravidelne pracujeme aj v Presove, Lipanoch, Pecovskej Novej Vsi a dalsich mestach Presovského kraja."
+          },
+          {
+            "question": "Kolko stoji bezna oprava vodovodneho potrubia?",
+            "answer": "Cena zavisi od rozsahu prace. Jednoducha oprava zacina od 40 EUR. Po obhliadke vam vzdy pripravime detailnu cenovu ponuku vopred, bez skrytych poplatkov."
+          },
+          {
+            "question": "Poskytujete zaruku na vykonane prace?",
+            "answer": "Ano, na vsetky nase prace poskytujeme zaruku v trvaní 24 mesiacov. Na zabudovane materialy plati zaruka podla vyrobcu."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta_banner",
+      "id": "cta_banner_1",
+      "label": "CTA Banner",
+      "order": 8,
+      "fields": {
+        "headline": "Potrebujete vodara alebo kurenara?",
+        "subheadline": "Kontaktujte nas este dnes a do 24 hodin vam pripravime nezavaznu cenovu ponuku.",
+        "cta_text": "Zavolajte nam",
+        "cta_url": "tel:+421900000000",
+        "background_image": "images/hero-bg.jpg"
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact_1",
+      "label": "Kontakt",
+      "order": 9,
+      "fields": {
+        "headline": "Kontaktujte nas",
+        "subheadline": "Sme tu pre vas - ozvite sa nam telefonicky, emailom alebo cez formular",
+        "address": "Sabinov, Presovsky kraj, Slovensko",
+        "phone": "+421 900 000 000",
+        "email": "info@lukyinstal.sk",
+        "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10451.53!2d21.097!3d49.103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473eed!2sSabinov!5e0!3m2!1sen!2ssk!4v1"
+      }
+    },
+    {
+      "type": "footer",
+      "id": "footer_1",
+      "label": "Footer",
+      "order": 10,
+      "fields": {
+        "copyright_text": "2026 Luky InstaL. Vsetky prava vyhradene.",
+        "logo_text": "Luky InstaL",
+        "logo_image": "",
+        "description": "Profesionalne vodoinstalatericke a kurenarske sluzby v Sabinove a Presovskom kraji."
+      },
+      "repeaters": {
+        "links": [
+          { "text": "Domov", "url": "#hero_1" },
+          { "text": "Sluzby", "url": "#services_grid_1" },
+          { "text": "O nas", "url": "#about_1" },
+          { "text": "Kontakt", "url": "#contact_1" }
+        ],
+        "social": [
+          { "platform": "facebook", "url": "https://facebook.com/lukyinstal" },
+          { "platform": "instagram", "url": "https://instagram.com/lukyinstal" }
+        ]
+      }
+    }
+  ]
+}
